@@ -33,7 +33,7 @@ public class XpathText {
 		txtUsername.sendKeys("Gokul");
 		String attribute = txtUsername.getAttribute("value");
 		System.out.println(attribute);
-		
+		//pass
 		WebElement txtPassword = driver.findElement(By.xpath("//input[contains(@name,'pass')]"));
 		txtPassword.sendKeys("123");
 		String attribute2 = txtPassword.getAttribute("value");
